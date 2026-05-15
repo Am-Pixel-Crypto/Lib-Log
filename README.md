@@ -1,4 +1,4 @@
-# LibLog 📚
+# LibLog
 
 A personal book logging app to track books you've read, rate them, and save notes — built with Node.js, Express, and PostgreSQL.
 
