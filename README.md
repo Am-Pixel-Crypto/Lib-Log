@@ -53,7 +53,7 @@ CREATE TABLE books (
 Optionally, load the included sample data:
 
 ```bash
-psql -U postgres -d liblog -f backup.sql
+psql -U postgres -d liblog -f LibLog.sql
 ```
 
 ### 4. Configure environment variables
