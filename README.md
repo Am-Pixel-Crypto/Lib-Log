@@ -1,4 +1,4 @@
-# LibLog
+# Lib-Log
 
 A personal book logging app to track books you've read, rate them, and save notes — built with Node.js, Express, and PostgreSQL.
 
@@ -24,8 +24,8 @@ A personal book logging app to track books you've read, rate them, and save note
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/MahmoudMostafa/LibLog.git
-cd LibLog
+git clone https://github.com/MahmoudMostafa/Lib-Log.git
+cd Lib-Log
 ```
 
 ### 2. Install dependencies
