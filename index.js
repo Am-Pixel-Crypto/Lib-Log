@@ -1,9 +1,6 @@
 import express from 'express';
 import pg from 'pg';
 import axios from 'axios';
-import dotenv from 'dotenv';
-dotenv.config();
-
 
 const port = process.env.PORT || 3000;
 const app = express();
