@@ -17,17 +17,19 @@
                                 <% if (book.notes) { %>
                                     <p class="card-text small"><strong>Notes:</strong> <%= book.notes.substring(0, 50) %><% if (book.notes.length > 50) { %>...<% } %></p>
                                 <% } %>
-                                <button class="btn btn-primary btn-sm mt-auto" data-bs-toggle="modal" data-bs-target="#ratingModal" 
-                                    data-title="<%= book.title %>" 
-                                    data-cover="<%= book.cover_i %>" 
-                                    data-author="<%= book.authorname ? book.authorname : 'Unknown' %>"
-                                    data-rating="<%= book.rating || '' %>"
-                                    data-notes="<%= book.notes || '' %>">
-                                    Edit rate/notes
-                                </button>
-                                <button class="btn btn-danger btn-sm ms-2" data-cover="<%= book.cover_i %>">
-                                    Delete
-                                </button>
+                                <div class="d-flex gap-2 mt-auto">
+                                    <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#ratingModal" 
+                                        data-title="<%= book.title %>" 
+                                        data-cover="<%= book.cover_i %>" 
+                                        data-author="<%= book.authorname ? book.authorname : 'Unknown' %>"
+                                        data-rating="<%= book.rating || '' %>"
+                                        data-notes="<%= book.notes || '' %>">
+                                        Edit rate/notes
+                                    </button>
+                                    <button class="btn btn-danger btn-sm" data-cover="<%= book.cover_i %>">
+                                        Delete
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
