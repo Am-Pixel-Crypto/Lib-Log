@@ -1,0 +1,17 @@
+{
+  "name": "lib-log",
+  "version": "1.0.0",
+  "description": "A book logging and note-taking application built with Node.js, Express, and PostgreSQL.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Mahmoud",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.16.0",
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
+  }
+}
